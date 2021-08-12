@@ -1,0 +1,16 @@
+git --version
+git config --global user.name "Abner Nunez"
+git config --global user.email abner.nunez1972@gmail.com
+git config --list
+
+
+git init
+git status
+git add .
+git commit -m "first commit"
+git log --onelinegit 
+git remote add origin <repository URL>
+
+git push -u origin master
+
+git clone <repository URL>
